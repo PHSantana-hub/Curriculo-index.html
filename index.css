@@ -1,0 +1,132 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f3f3;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+.header {
+  background-color: #fce4e4;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.profile-photo-container {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-info h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+  line-height: 1;
+}
+
+.header-info h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #555;
+  margin: 5px 0 20px 0;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #444;
+}
+
+.contact-info .fas {
+  color: #666;
+  margin-right: 10px;
+}
+
+.section {
+  padding-top: 40px;
+}
+
+.section h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #333;
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+  margin: 0;
+  line-height: 1;
+}
+
+.section p {
+  margin-top: 10px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #777;
+  margin-top: 0;
+}
+
+.skills-list {
+  display: flex;
+  gap: 50px;
+  margin-top: 15px;
+}
+
+.skills-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.skills-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #f172a5;
+  border-radius: 50%;
+}
